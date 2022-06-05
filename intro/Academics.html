@@ -7,7 +7,8 @@
 </head>
 <body>
 <header>This page showcases my Academics</header>
-<div>
+<main>
+<section>
 <pre>School Name:<a href="https://holyhearts.in/" target="_blank"> <b>Holy Hearts Educational Academy</b></a>, Civil Lines, 492001, Raipur, Chhattisgarh
 School Performance
 </pre>
@@ -22,9 +23,9 @@ Here are some less known facts about my School
 -> It has great discipline.
 -> It situated in the heart of the city.
 </pre>
-</div>
+</section>
 <hr>
-<div>
+<section>
 <pre>University Name:<a href="https://www.srmist.edu.in/" target="_blank"><b> SRM Institute of Science And Technology</b></a>, Potheri, SRM Nagar, Kattankulathur, Tamil Nadu 603203
 College Performance
 </pre>
@@ -37,7 +38,63 @@ College Performance
 -> It has some of the great labs that are ranked best in a country.
 -> Many government funded projects are developed here.
 -> It has strong ethnic community.</pre>
-</div>
-<footer>Solely own by Animesh Gupta &copy;</footer>
+</section>
+<section>
+	<table>
+		<thead>
+		<caption>My Qualifications</caption>
+		<tr>
+			<!-- <th colspan="3">Information</th> -->
+			<th>Classes</th>
+			<th>Percentages</th>
+			<th>Passout Year</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Higher secondary School</td>
+			<td>74%</td>
+			<td>2014</td>
+		</tr>
+		<tr>
+			<td>Senior Secondary School</td>
+			<td>76%</td>
+			<td>2016</td>
+		</tr>
+		<tr>
+			<td>College</td>
+			<td>83%</td>
+			<td>2020</td>
+		</tr>
+	</tbody>
+	</table>
+</section>
+<br>
+<form>
+	<h4>Details for Accomodation</h4>
+	<input type="text" placeholder="House"><br>
+	<input type="password" placeholder="password"><br>
+	<label for="101">
+	<input type="radio" name="class" value="ClassX" id="101">ClassX<br>
+</label>
+	<label for="102">
+	<input type="radio" name="class" value="ClassXII" id="102">ClassXII
+</label><br>
+<label for="105">
+	<input type="checkbox" name="subject" value="math" id="105">Math
+</label><br>
+<label for="106">
+	<input type="checkbox" name="subject" value="phy" id="106">Physics
+</label><br>
+<textarea name="feedback" id="107" placeholder="please give your valuable feedback" rows="5">Feedback</textarea><br>
+Select your desired role
+<select name="role" >
+	<option value="ML engineer">ML engineer</option>
+	<option value="Computer Vision Engineer">Computer Vision Engineer</option>
+	<option value="AI engineer">AI engineer</option>
+</select>
+</form>
+</main>
+<footer><h4>Solely own by Animesh Gupta &copy;</h4></footer>
 </body>
 </html>
